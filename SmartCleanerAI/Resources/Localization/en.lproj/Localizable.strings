@@ -1,0 +1,122 @@
+/* ===================================================
+   SmartCleanerAI — Localizable.strings (English)
+   Target: en.lproj
+   =================================================== */
+
+// MARK: - Tab Bar
+"tab.dashboard"          = "Dashboard";
+"tab.cleaner"            = "Cleaner";
+"tab.ai"                 = "AI Advice";
+"tab.history"            = "History";
+"tab.settings"           = "Settings";
+
+// MARK: - Dashboard
+"dashboard.greeting"     = "Good morning";
+"dashboard.title"        = "SmartCleaner AI";
+"dashboard.quickActions.title" = "Quick Actions";
+"dashboard.recommendations.title" = "AI Recommendations";
+"dashboard.history.title"   = "Cleanup History";
+"dashboard.history.totalSaved" = "freed in last 30 days";
+
+// MARK: - Features
+"feature.duplicatePhotos"   = "Duplicate Photos";
+"feature.blurDetection"     = "Blurry Photos";
+"feature.similarPhotos"     = "Similar Photos";
+"feature.screenshots"       = "Screenshots";
+"feature.largeVideos"       = "Large Videos";
+"feature.duplicateContacts" = "Duplicate Contacts";
+
+// MARK: - Quick Actions
+"quickAction.findDuplicates"  = "Find & remove duplicates";
+"quickAction.findBlurry"      = "Detect blurry shots";
+"quickAction.findLargeVideos" = "Free up video space";
+"quickAction.findContacts"    = "Merge duplicate contacts";
+
+// MARK: - Cleaner Menu
+"cleaner.duplicates.subtitle"  = "Remove identical photos";
+"cleaner.blurry.subtitle"      = "AI-powered blur detection";
+"cleaner.similar.subtitle"     = "Group near-duplicate shots";
+"cleaner.screenshots.subtitle" = "Clean up old screenshots";
+"cleaner.largeVideos.subtitle" = "Videos over 100 MB";
+"cleaner.contacts.subtitle"    = "Merge contacts with same name";
+
+// MARK: - Recommendations
+"recommendations.empty.title"   = "All Clear!";
+"recommendations.empty.message" = "No cleanup recommendations at this time. Your library looks great!";
+"recommendation.screenshots.title"   = "Clear Old Screenshots";
+"recommendation.screenshots.description" = "%d screenshots detected";
+"recommendation.largeVideos.title"   = "Remove Large Videos";
+"recommendation.largeVideos.description" = "%d videos over 100 MB";
+"recommendation.blurry.title"        = "Delete Blurry Photos";
+"recommendation.blurry.description"  = "%d blurry photos detected";
+"recommendation.duplicates.title"    = "Remove Duplicate Photos";
+"recommendation.duplicates.description" = "%d duplicate photos found";
+"recommendations.banner.title"    = "Estimated Reclaimable Space";
+"recommendations.banner.subtitle" = "Based on AI analysis of your library";
+
+// MARK: - Storage
+"storage.used.label"    = "Used";
+"storage.free.label"    = "Free";
+
+// MARK: - Storage Advisor (Estimated — iOS limitation disclosure)
+"storage.advisor.disclaimer" = "Estimated data only. iOS does not allow third-party apps access to other apps' storage.";
+
+// MARK: - Blur Labels
+"blur.label.sharp"    = "Sharp";
+"blur.label.slightly" = "Slightly Blurry";
+"blur.label.blurry"   = "Blurry";
+
+// MARK: - History
+"history.empty.title"   = "No Cleanup History";
+"history.empty.message" = "Complete your first cleanup to see your history here.";
+
+// MARK: - Settings
+"settings.section.preferences" = "Preferences";
+"settings.section.storage"     = "Storage";
+"settings.section.about"       = "About";
+"settings.weeklyBackgroundScan" = "Weekly Background Scan";
+"settings.scanNotifications"   = "Scan Notifications";
+"settings.clearHistory"        = "Clear Scan History";
+"settings.clearHistory.confirm.title" = "Clear all scan history? This cannot be undone.";
+"settings.privacyPolicy"       = "Privacy Policy";
+"settings.termsOfService"      = "Terms of Service";
+"settings.version"             = "Version";
+
+// MARK: - Premium
+"premium.hero.title"    = "Unlock SmartCleaner AI Pro";
+"premium.hero.subtitle" = "Get unlimited AI-powered analysis and free up maximum storage space.";
+"premium.feature.aiAnalysis"      = "Deep AI Analysis";
+"premium.feature.deepDuplicateScan" = "Advanced Duplicate Scan";
+"premium.feature.blurDetection"   = "Blur Detection";
+"premium.feature.autoScan"        = "Auto Weekly Scan";
+"premium.feature.detailedStats"   = "Detailed Stats";
+"premium.feature.cloudExport"     = "Cloud Export";
+"premium.cta.subscribe"  = "Subscribe Now";
+"premium.action.restore" = "Restore Purchases";
+"premium.privacy"        = "Privacy";
+"premium.terms"          = "Terms";
+
+// MARK: - Badges
+"badge.new"     = "NEW";
+"badge.premium" = "PRO";
+
+// MARK: - Actions
+"action.seeAll"   = "See All";
+"action.refresh"  = "Refresh";
+"action.clearAll" = "Clear All";
+"action.delete"   = "Delete";
+"action.cancel"   = "Cancel";
+"action.done"     = "Done";
+
+// MARK: - Errors
+"storage.error.permissionDenied"        = "Photos access is required. Please enable it in Settings.";
+"storage.error.permissionLimited"       = "Limited Photos access. Some photos may not be scanned.";
+"storage.error.scanFailed"              = "Scan failed: %@";
+"storage.error.assetFetchFailed"        = "Could not load your photo library. Please try again.";
+"storage.error.assetNotFound"           = "The selected item could not be found.";
+"storage.error.deletionFailed"          = "Could not delete item: %@";
+"storage.error.partialFailure"          = "%d items removed, %d could not be deleted.";
+"storage.error.mergeFailed"             = "Could not merge contacts: %@";
+"storage.error.persistenceFailed"       = "Could not save data: %@";
+"storage.error.featureExtractionFailed" = "AI analysis failed. Please try again.";
+"storage.error.modelLoadFailed"         = "Could not load AI model.";

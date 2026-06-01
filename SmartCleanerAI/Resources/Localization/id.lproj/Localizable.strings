@@ -1,0 +1,122 @@
+/* ===================================================
+   SmartCleanerAI — Localizable.strings (Bahasa Indonesia)
+   Target: id.lproj
+   =================================================== */
+
+// MARK: - Tab Bar
+"tab.dashboard"          = "Beranda";
+"tab.cleaner"            = "Pembersih";
+"tab.ai"                 = "Saran AI";
+"tab.history"            = "Riwayat";
+"tab.settings"           = "Pengaturan";
+
+// MARK: - Dashboard
+"dashboard.greeting"     = "Selamat pagi";
+"dashboard.title"        = "SmartCleaner AI";
+"dashboard.quickActions.title" = "Aksi Cepat";
+"dashboard.recommendations.title" = "Rekomendasi AI";
+"dashboard.history.title"   = "Riwayat Pembersihan";
+"dashboard.history.totalSaved" = "dibebaskan dalam 30 hari terakhir";
+
+// MARK: - Features
+"feature.duplicatePhotos"   = "Foto Duplikat";
+"feature.blurDetection"     = "Foto Buram";
+"feature.similarPhotos"     = "Foto Serupa";
+"feature.screenshots"       = "Tangkapan Layar";
+"feature.largeVideos"       = "Video Berukuran Besar";
+"feature.duplicateContacts" = "Kontak Duplikat";
+
+// MARK: - Quick Actions
+"quickAction.findDuplicates"  = "Temukan & hapus duplikat";
+"quickAction.findBlurry"      = "Deteksi foto buram";
+"quickAction.findLargeVideos" = "Bebaskan ruang video";
+"quickAction.findContacts"    = "Gabungkan kontak duplikat";
+
+// MARK: - Cleaner Menu
+"cleaner.duplicates.subtitle"  = "Hapus foto identik";
+"cleaner.blurry.subtitle"      = "Deteksi buram berbasis AI";
+"cleaner.similar.subtitle"     = "Kelompokkan foto hampir sama";
+"cleaner.screenshots.subtitle" = "Bersihkan tangkapan layar lama";
+"cleaner.largeVideos.subtitle" = "Video di atas 100 MB";
+"cleaner.contacts.subtitle"    = "Gabungkan kontak bernama sama";
+
+// MARK: - Recommendations
+"recommendations.empty.title"   = "Semua Bersih!";
+"recommendations.empty.message" = "Tidak ada rekomendasi pembersihan saat ini. Perpustakaan Anda sudah bagus!";
+"recommendation.screenshots.title"   = "Bersihkan Tangkapan Layar Lama";
+"recommendation.screenshots.description" = "%d tangkapan layar terdeteksi";
+"recommendation.largeVideos.title"   = "Hapus Video Berukuran Besar";
+"recommendation.largeVideos.description" = "%d video di atas 100 MB";
+"recommendation.blurry.title"        = "Hapus Foto Buram";
+"recommendation.blurry.description"  = "%d foto buram terdeteksi";
+"recommendation.duplicates.title"    = "Hapus Foto Duplikat";
+"recommendation.duplicates.description" = "%d foto duplikat ditemukan";
+"recommendations.banner.title"    = "Perkiraan Ruang yang Bisa Dibebaskan";
+"recommendations.banner.subtitle" = "Berdasarkan analisis AI pada perpustakaan Anda";
+
+// MARK: - Storage
+"storage.used.label"    = "Digunakan";
+"storage.free.label"    = "Tersedia";
+
+// MARK: - Storage Advisor (Perkiraan — keterbatasan iOS)
+"storage.advisor.disclaimer" = "Data perkiraan saja. iOS tidak mengizinkan akses aplikasi pihak ketiga ke penyimpanan aplikasi lain.";
+
+// MARK: - Blur Labels
+"blur.label.sharp"    = "Tajam";
+"blur.label.slightly" = "Sedikit Buram";
+"blur.label.blurry"   = "Buram";
+
+// MARK: - History
+"history.empty.title"   = "Tidak Ada Riwayat Pembersihan";
+"history.empty.message" = "Selesaikan pembersihan pertama Anda untuk melihat riwayat di sini.";
+
+// MARK: - Settings
+"settings.section.preferences" = "Preferensi";
+"settings.section.storage"     = "Penyimpanan";
+"settings.section.about"       = "Tentang";
+"settings.weeklyBackgroundScan" = "Pemindaian Latar Mingguan";
+"settings.scanNotifications"   = "Notifikasi Pemindaian";
+"settings.clearHistory"        = "Hapus Riwayat Pemindaian";
+"settings.clearHistory.confirm.title" = "Hapus semua riwayat pemindaian? Tindakan ini tidak dapat dibatalkan.";
+"settings.privacyPolicy"       = "Kebijakan Privasi";
+"settings.termsOfService"      = "Syarat Layanan";
+"settings.version"             = "Versi";
+
+// MARK: - Premium
+"premium.hero.title"    = "Buka SmartCleaner AI Pro";
+"premium.hero.subtitle" = "Dapatkan analisis AI tanpa batas dan bebaskan ruang penyimpanan maksimal.";
+"premium.feature.aiAnalysis"      = "Analisis AI Mendalam";
+"premium.feature.deepDuplicateScan" = "Pemindaian Duplikat Lanjutan";
+"premium.feature.blurDetection"   = "Deteksi Buram";
+"premium.feature.autoScan"        = "Pemindaian Otomatis Mingguan";
+"premium.feature.detailedStats"   = "Statistik Terperinci";
+"premium.feature.cloudExport"     = "Ekspor ke Cloud";
+"premium.cta.subscribe"  = "Berlangganan Sekarang";
+"premium.action.restore" = "Pulihkan Pembelian";
+"premium.privacy"        = "Privasi";
+"premium.terms"          = "Syarat";
+
+// MARK: - Badges
+"badge.new"     = "BARU";
+"badge.premium" = "PRO";
+
+// MARK: - Actions
+"action.seeAll"   = "Lihat Semua";
+"action.refresh"  = "Segarkan";
+"action.clearAll" = "Hapus Semua";
+"action.delete"   = "Hapus";
+"action.cancel"   = "Batal";
+"action.done"     = "Selesai";
+
+// MARK: - Errors
+"storage.error.permissionDenied"        = "Akses Foto diperlukan. Aktifkan di Pengaturan.";
+"storage.error.permissionLimited"       = "Akses Foto terbatas. Beberapa foto mungkin tidak dipindai.";
+"storage.error.scanFailed"              = "Pemindaian gagal: %@";
+"storage.error.assetFetchFailed"        = "Tidak dapat memuat perpustakaan foto. Coba lagi.";
+"storage.error.assetNotFound"           = "Item yang dipilih tidak ditemukan.";
+"storage.error.deletionFailed"          = "Tidak dapat menghapus item: %@";
+"storage.error.partialFailure"          = "%d item dihapus, %d tidak dapat dihapus.";
+"storage.error.mergeFailed"             = "Tidak dapat menggabungkan kontak: %@";
+"storage.error.persistenceFailed"       = "Tidak dapat menyimpan data: %@";
+"storage.error.featureExtractionFailed" = "Analisis AI gagal. Coba lagi.";
+"storage.error.modelLoadFailed"         = "Tidak dapat memuat model AI.";
